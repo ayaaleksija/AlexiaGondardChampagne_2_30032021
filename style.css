@@ -1,0 +1,6 @@
+/* Définition des polices */
+@font-face 
+{
+    font-family: "Raleway";
+    src: url(Polices/raleway/Raleway-Medium.ttf), url(Polices/raleway/Raleway-Thin.ttf);
+}
