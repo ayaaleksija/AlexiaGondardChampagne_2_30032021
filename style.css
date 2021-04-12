@@ -29,7 +29,7 @@ header
     flex-wrap: wrap;
 }
 
-.navigation
+#navigation
 {
     display: flex;
 }
@@ -87,17 +87,14 @@ nav a
 
 /* RECHERCHE */
 
-#recherche
-{
-    display: flex;
-    flex-direction: row;
-}
-
 .recherche_loc
 {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
+    align-items: center;
+    width: auto;
+    min-width: 400px;
 }
 
 .icone_loc
@@ -107,6 +104,7 @@ nav a
     height: 30px;
     width: 30px;
     border-radius: 10px 0 0 10px;
+    padding: 1px;
 }
 
 .fas.fa-map-marker-alt
@@ -212,45 +210,49 @@ h2
 }
 /* hotel */
 
+#ppal
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content:space-between;
+    max-width: 1200px;
+}
+
 #hebergements
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+
+.titre_hebergements
+{
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
 }
 
 .hebergement_marseille
 {
     background-color: #F2F2F2;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     border-radius: 20px;
-    padding: 44px 36px 44px 36px;
-    max-width: 805px;
+    padding: 0px 0px 0px 40px;
+    max-width: 750px;
 }
 
 .hotels
 {
+    margin: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    margin-bottom: 20px;   
-}
-
-.cadre_img
-{
-    border: 3px solid white;
-    border-radius: 20px;
-    padding: 5px 10px 10px 5px;
-    background-color: white;
-    max-width: 230px;
-    margin-bottom: 25px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .photo_hotel
@@ -258,8 +260,14 @@ h2
     object-fit: cover;
     width: 200px;
     height: 100px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+}
+
+#hebergements figure
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    overflow:hidden;
+    background-color: white;
 }
 
 .prix_note
@@ -267,17 +275,6 @@ h2
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 16px;
-}
-
-.prix
-{
-    padding-bottom: 5px;
-}
-
-.notation
-{
-    padding-bottom: 5px;
 }
 
 .fas.fa-star
@@ -294,10 +291,13 @@ h2
 
 #plus_populaires
 {
-    background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
-    max-width: 345px;
+    justify-content: space-around;
+    align-content:space-around;
+    width: 26em;
+    border-radius: 20px;
+    background-color: #F2F2F2;
 }
 
 .populaires
@@ -338,4 +338,98 @@ h2
     padding: 7px 0px 7px 20px;
     display: flex;
 
+}
+
+/* ACTIVITES */
+
+#activites
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    max-width: 1200px;
+}
+#activites h2
+{
+    margin-bottom: 25px;
+}
+
+.activites_marseille
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.activite23,
+.activite56
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.activite1,
+.activite2,
+.activite3,
+.activite4,
+.activite5,
+.activite6 {
+    box-shadow: 10px 0 #0000002e;
+    padding: px 0px 40px 0px;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.photo_activite1,
+.photo_activite2,
+.photo_activite3,
+.photo_activite4,
+.photo_activite5,
+.photo_activite6
+{
+    object-fit: cover;
+    background-size: 100% 100%;
+    padding: 10px 0px 22px 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.photo_activite1,
+.photo_activite4
+{
+    height: 400px;
+    width: 300px;
+    
+}
+
+.photo_activite2,
+.photo_activite6
+{
+    height: 100px;
+    width: 300px;
+}
+
+.photo_activite3,
+.photo_activite5
+{
+    height: 100px;
+    width: 300px;
+}
+.activite1,
+.activite4
+{
+    height: 400px;
+    width: 100px;
+}
+
+.activite2,
+.activite3,
+.activite5,
+.activite6
+{
+    height: 200px;
+    width: 100px;
 }
