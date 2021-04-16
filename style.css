@@ -501,6 +501,17 @@ input
     height: 400px;
     justify-content: space-between;
 }
+.activite2,
+.activite5
+{
+    margin-bottom: 20px;
+}
+.activite3,
+.activite6
+{
+    margin-top: 20px;
+}
+
 
 .activite2,
 .activite3,
