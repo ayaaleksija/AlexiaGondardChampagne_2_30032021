@@ -1,0 +1,10 @@
+/* MEDIA QUERIES */
+
+@media  (max-width: 800px)
+{
+    .navigation
+    {
+        flex-direction: column;
+        height: auto;
+    }
+}
