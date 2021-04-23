@@ -114,26 +114,68 @@ header
     margin-right: 0%;
 }
 
-/* ACTIVITES 
+/* ACTIVITES */
 
 #activites
 {
-    width: 100%;
+    width: 425px;
     background-color: white;
     order: 3;
-    width: 340px;
     margin: 0%;
     padding: 0;
 }
 
 .activites_marseille
 {
-    display: block;
-    width: 95%;
-    
-    font-size: 14px;
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
 }
 
+.activites_marseille figure
+{
+    margin-top: 20px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.activite1,
+.activite4
+{
+    height: 200px;
+}
+.photo_activite1,
+.photo_activite4,
+.photo_activite2,
+.photo_activite3,
+.photo_activite5,
+.photo_activite6
+{
+    width: 100%;
+    height: 150px;
+}
+
+.activite23
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.activite56
+{
+    margin-left: 0px;
+}
+
+.activite3
+{
+    margin-top: 0px;
+}
+
+.activite6
+{
+    margin-top: 0px;
+}
 /* FOOTER */
 
 #footer
