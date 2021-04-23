@@ -32,6 +32,7 @@ header
 #navigation
 {
     display: flex;
+    align-items: center;
 }
 
 nav ul
@@ -66,7 +67,7 @@ nav a
 
 .logo img
 {
-    width: 90px;
+    width: 100px;
     height: auto;
 }
 
@@ -224,7 +225,7 @@ input
     flex-wrap: wrap;
     justify-content:space-between;
     align-content:space-between;
-    width: 1200px;
+    
 }
 
 #hebergements
@@ -233,7 +234,6 @@ input
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-    width: 1200px;
 }
 
 .titre_hebergements
@@ -358,6 +358,7 @@ input
     overflow: hidden;
     background-color: white;
 }
+
 .cadre_img_pop
 {
     display: flex;
@@ -379,6 +380,7 @@ input
     font-weight: bolder;
     font-size: small;
     margin-top: 20px;
+    width: 130px;
 }
 
 
@@ -389,8 +391,9 @@ input
 
 .notation_pop
 {
-    
     font-size: small;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* ACTIVITES */
@@ -617,3 +620,5 @@ input
     margin-left: 40px;
     margin-top: 30px;
 }
+
+/* MEDIA QUERIES */
