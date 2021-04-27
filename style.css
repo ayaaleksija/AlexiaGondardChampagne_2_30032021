@@ -54,10 +54,14 @@ nav a
     text-decoration: none;
 }
 
-.link_hbgmt
+
+
+.link_hbgmt a:hover,
+.link_act a:hover,
+.link_suscribe a:hover
 {
     border-top: 2px solid #0065FC;
-    margin-top: -1.5px;
+    margin-bottom: 5px;
 }
 
 .link_suscribe
@@ -122,6 +126,11 @@ nav a
     border-radius: 0 10px 10px 0;
     color: white;
     font-weight: bold;
+}
+
+.loupe
+{
+    display: none;
 }
 
 input

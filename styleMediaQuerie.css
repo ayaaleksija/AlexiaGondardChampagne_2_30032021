@@ -11,11 +11,17 @@ header
     display: inline;
 }
 
+.accroche
+{
+    align-items: stretch;
+}
 .accroche h2
 {
     font-size: 1.75em;
     font-weight: 400;
     margin-bottom: 2%;
+    width: 100%;
+
 }
 
 .accroche h3
@@ -24,6 +30,25 @@ header
     font-size: large;
     font-weight: 100;
     margin-top: 0%;
+    width: 100%;
+}
+
+#recherche
+{
+    width: 100%;
+}
+
+.recherche
+{
+    display: none;
+}
+
+.loupe
+{
+    display: inline;
+    background-color: #0065FC;
+    border-radius: 10px;
+    color: white;
 }
 
 /* FILTRES */
@@ -31,22 +56,23 @@ header
 .filtres
 {
     display: flex;
+    flex-direction: row;
 }
 
 .titre
 {
     margin-bottom: 10px;
+    margin-right: 100%;
 }
 
 .icone_filtre
 {
-    width: 50%;
     margin-bottom: 10px;
+    width: 50%;
 }
 
 .familial
 {
-    position: relative;
     margin: 35px 0 0 55%;
     width: 35%;
 }
@@ -78,8 +104,6 @@ header
     width: 100%;
     background-color: white;
     order: 2;
-    margin: 0%;
-    padding: 0;
 }
 
 .cadre_img
@@ -104,6 +128,7 @@ header
 .hebergement_marseille figure
 {
     width: 100%;
+    margin: 0%;
 }
 
 .hotels
@@ -128,7 +153,7 @@ header
 .activites_marseille
 {
     width: 100%;
-    height: 1150px;
+    height: 1250px;
     display: flex;
     flex-direction: column;
 }
@@ -144,7 +169,16 @@ header
 .activite4
 {
     height: 200px;
+    margin-bottom: 20px;
 }
+
+.activite2,
+.activite3,
+.activite5
+{
+    margin-bottom: 20px;
+}
+
 .photo_activite1,
 .photo_activite4,
 .photo_activite2,
@@ -182,7 +216,7 @@ header
 {
     flex-direction: column;
     background-color: #F2F2F2;
-    height: 700px;
+    height: 400px;
 }
 
 .apropos, 
@@ -191,9 +225,17 @@ header
 {
     display: flex;
     flex-direction: column;
-    height: 33,3%;
     width: max-content;
 }
+
+.apropos_liste, 
+.noshebergements_liste, 
+.assistance_liste
+{
+    padding-bottom: 5px;
+    margin-top: 0%;
+}
+
 
 .titre_apropos,
 .titre_noshebergements,
