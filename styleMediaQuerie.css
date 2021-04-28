@@ -38,6 +38,11 @@ header
     width: 100%;
 }
 
+.text_rech
+{
+    width: 480px;
+}
+
 .recherche
 {
     display: none;
