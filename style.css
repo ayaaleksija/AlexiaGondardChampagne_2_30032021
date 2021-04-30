@@ -62,6 +62,7 @@ nav a
 {
     border-top: 2px solid #0065FC;
     margin-bottom: 5px;
+    padding-top: 20px;
 }
 
 .link_suscribe
@@ -73,6 +74,11 @@ nav a
 {
     width: 100px;
     height: auto;
+}
+
+.inscription
+{
+    display: none;
 }
 
 /* ACCROCHES */
