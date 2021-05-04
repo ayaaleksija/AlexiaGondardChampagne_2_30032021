@@ -555,6 +555,15 @@ input
     transform:scale(1.15); 
 }
 
+.icone_filtre:hover
+{
+    -webkit-transform:scale(1.15); 
+    -moz-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    transform:scale(1.15); 
+}
+
 .activite1,
 .activite2,
 .activite3,
