@@ -219,7 +219,7 @@
 
 /* TABLETTE */
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 481px) and (max-width: 790px) {
     #bloc_page,
     body {
         max-width: 780px;
