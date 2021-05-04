@@ -221,7 +221,7 @@ header
 .activites_marseille figure
 {
     margin-top: 20px;
-    height: 200px;
+    height: 190px;
     justify-content: space-between;
 }
 
@@ -270,6 +270,7 @@ header
 {
     margin-top: 0px;
 }
+
 /* FOOTER */
 
 #footer
