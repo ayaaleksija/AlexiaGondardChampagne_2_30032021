@@ -11,7 +11,7 @@
             max-width: 100%;
             margin: auto;
             padding-left: 20px;
-            padding-left: 20px;
+            padding-right: 20px;
         }
         header {
             display: inline;
@@ -22,7 +22,6 @@
         .inscription {
             display: inline;
             margin-top: 35px;
-            margin-right: 5px;
         }
         .inscription a {
             font-size: 0.9em;
@@ -70,13 +69,16 @@
             width: 100%;
         }
         #recherche {
-            width: 100%;
+            max-width: 100%;
         }
         .text_rech {
             width: 480px;
         }
         .recherche {
             display: none;
+        }
+        .recherche_loc {
+            max-width: 100%;
         }
         .loupe {
             display: inline;

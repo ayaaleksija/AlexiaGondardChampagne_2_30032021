@@ -96,7 +96,6 @@ nav a {
     display: flex;
     flex-direction: row;
     width: auto;
-    min-width: 400px;
 }
 
 .icone_loc {
