@@ -1,3 +1,8 @@
+    @media screen and (min-width: 791) and (max-width: 1024px) {
+        .hebergement_marseille {
+            max-width: 70%;
+        }
+    }
     /* MOBILE */
     
     @media screen and (max-width: 480px) {
