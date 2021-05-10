@@ -110,12 +110,14 @@
         }
         #hebergements {
             max-width: 100%;
-            background-color: #F2F2F2;
+            margin: 0%;
+            padding: 0;
         }
         #plus_populaires {
             max-width: 100%;
             padding-bottom: 20px;
             border-radius: 0;
+            margin: 0;
         }
         .hebergement_marseille {
             max-width: 100%;
@@ -140,14 +142,16 @@
             padding-left: 10px;
         }
         .hebergement_marseille figure {
-            max-width: 100%;
+            width: 100%;
             margin: 0%;
+            padding: 0;
         }
         .hotels {
             height: 210px;
             font-size: 14px;
             padding: 0;
             width: 100%;
+            margin: 0%;
         }
         .more {
             display: none;
