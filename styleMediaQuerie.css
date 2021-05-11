@@ -8,8 +8,9 @@
     @media screen and (max-width: 480px) {
         #bloc_page,
         body {
-            max-width: 96%;
+            max-width: 100%;
             margin: auto;
+            padding-right: 0;
         }
         header {
             display: inline;
@@ -36,7 +37,7 @@
             flex-direction: row;
         }
         .logo {
-            margin-right: 145px;
+            margin-right: 135px;
         }
         #navigation {
             width: 80%;
