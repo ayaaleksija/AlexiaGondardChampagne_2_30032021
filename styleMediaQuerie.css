@@ -9,8 +9,9 @@
         #bloc_page,
         body {
             max-width: 100%;
-            margin: auto;
-            padding-right: 0;
+            margin: 5px;
+            padding: 0px;
+            overflow-x: hidden;
         }
         header {
             display: inline;
